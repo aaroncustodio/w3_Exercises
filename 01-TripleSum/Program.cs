@@ -14,6 +14,8 @@ namespace _01_TripleSum
 
         static int TripleSumIfEqual(int a, int b)
         {
+            // optimal:
+            // return a == b ? 3*(a + b) : (a + b);
             if (a == b)
             {
                 return 3 * (a + b);

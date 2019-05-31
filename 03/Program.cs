@@ -15,6 +15,8 @@ namespace _03
 
         static Boolean Haha(int a, int b)
         {
+            // optimal:
+            // return a == 30 || b == 30 || (a + b == 30);
             if (a==30 || b == 30 || a+b==30)
             {
                 return true;
